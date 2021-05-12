@@ -1,0 +1,19 @@
+.searchBox {
+	position: relative;
+}
+
+.searchResult {
+	position: absolute;
+	border-radius: 0 0 10px 10px;
+	background-color: #000000d9;
+	top: 100%;
+	z-index: 1;
+	left: 0%;
+	right: 40px;
+	padding: 10px 30px;
+}
+
+.searchResult div {
+	color: white;
+	cursor: pointer;
+}
